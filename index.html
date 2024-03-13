@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar color de fondo</title>
+</head>
+<body>
+    
+    <h2>Cambiar Color de Fondo</h2>
+   
+    <button onclick="cambiarColor('purple')">morado</button>
+    <button onclick="cambiarColor('blue')">Azul</button>
+    <button onclick="cambiarColor('green')">Verde</button>
+    <button onclick="cambiarColor('red')">rojo</button>
+    <button onclick="cambiarColor('yellow')">Amarillo</button>
+    <button onclick="cambiarColor('orange')">Naranja</button>
+    <button onclick="cambiarColor('aquamarine')">aguamarina</button>
+    
+
+    <script>
+        function cambiarColor(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>
